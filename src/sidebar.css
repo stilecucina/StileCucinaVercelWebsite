@@ -1,0 +1,51 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.05);
+  padding: 20px;
+  position: sticky; /* Sayfada sabit kalır */
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  padding: 12px 0;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.sidebar-item:hover {
+  color: #fff;
+  background-color: #ff6b6b; /* Hover rengi */
+  border-radius: 6px;
+  padding-left: 8px;
+}
+
+.dropdown-item {
+  padding: 8px 0;
+  cursor: pointer;
+  color: #555;
+  height: 20px;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #ff6b6b; /* Hover rengi */
+  border-radius: 6px;
+  padding-left: 8px;
+}
