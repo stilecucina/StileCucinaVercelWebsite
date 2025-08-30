@@ -13,6 +13,11 @@ export const Products = [
     ],
    description: "Güzel kap"
   },
+  { id: 3, name: "Saklama Kabı", price: 500, images: [
+      require("./pictures/stm32nucleo-64_fig.1_4.jpg")
+    ],
+   description: "Büyük saklama kabı"
+  },
 ];
 
 export const Knives = [
