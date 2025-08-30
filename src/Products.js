@@ -6,7 +6,13 @@ export const Products = [
       require("./pictures/org_zoom.jpg")
     ],
     description: "Dayanıklı seramik tabak" },
-  //{ id: 2, name: "Kap", price: 10000, image: require("./pictures/org_zoom.jpg"), description: "Organik malzemeden yapılmış kap" },
+  { id: 2, name: "Kap", price: 10000, images: [
+      require("./pictures/dish.jpg"),
+      require("./pictures/logo.png"),
+      require("./pictures/org_zoom.jpg")
+    ],
+   description: "Güzel kap"
+  },
 ];
 
 export const Knives = [
