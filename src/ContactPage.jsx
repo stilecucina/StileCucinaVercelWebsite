@@ -18,8 +18,12 @@ const ContactPage = () => {
           </li>
           <li>
             <FaWhatsapp className="icon" />
-            <a href="https://wa.me/+90 541 343 06 26" target="_blank" rel="noopener noreferrer">
-            +90 541 343 06 26
+            <a
+              href="https://wa.me/905413430626"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +90 541 343 06 26
             </a>
           </li>
           <li>
